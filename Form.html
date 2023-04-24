@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="fname">Username :</label> </br>
+        <input type="text" id="fname" name="fname" value=""/> </br>
+        <label for="password">Password :</label> </br>
+        <input type="text" id="password" name="password" value=""/> </br>
+        <input type="submit" value="Log In"/>
+        <input type="submit" value="Sign Up"/>  
+    </form>
+
+<!-- 
+    <select> - mendefinisikan sebuah list dropdown
+    <option> - mendefinisikan sebuah pilihan yang dapat dipilih dari sebuah dropdown
+    <textarea> - mendefinisikan beberapa baris teks input
+    <button> - mendefinisikan elemen button yang bisa di klik
+-->
+
+    <form>
+        <label for="nama">Nama</label> <br>
+        <input type="text" id="nama" name="nama" value=""></input> <br>
+        <label for="universitas">Universitas</label> <br>
+        <input type="text" id="universitas" name="universitas" value=""></input> <br> 
+        <label for="Jurusan">Jurusan</label> <br>
+        <input type="text" id="jurusan" name="jurusan" value=""> <br> 
+        <label for="gender">Gender</label> <br>
+        <select>
+            <option>Laki-Laki</option> <!-- selected disini untuk memunculkan pilihan yg akan muncul pertama di halaman tsb-->
+            <option selected>Perempuan</option>
+            <option>Non Binary</option>
+        </select> <br>
+        <label for="gender">Kritik & Saran</label> <br>
+        <textarea type="text" maxlength="160" style="font-family:'Times New Roman', Times, serif" cols="30" rows="10">Silahkan ketik Kritik dan Saran disini</textarea><br></br>
+        <button type="button">Submit</button> <!-- onclick akan dibahas di java script-->
+    </form>
+
+    <form>
+        <input type="button" value="save"/> <br>
+        <input type="checkbox" value="true">Benar</input>
+        <input type="checkbox" value="true">Salah</input> <br>
+        <input type="color"/> <br>
+        <input type="date"/> <br>
+        <input type="email"/> <br>
+        <input type="password"/> <br>
+        <input type="search"/> <br>
+        <input type="radio">Pria</input>
+        <input type="radio">Wanita</input>
+
+    </form>
+</body>
+</html>
